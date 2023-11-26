@@ -17,12 +17,12 @@ variable "test_lst" {
   default     = [80, 443]
 }
 
-variable "test_tuple {
+variable "test_tuple" {
   type        = tuple
   default     = [121, "222", true]
 }
 
-variable "test_set {
+variable "test_set" {
   type        = set(string)
   default     = [121, 222]
 }
