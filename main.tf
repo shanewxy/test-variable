@@ -19,7 +19,7 @@ variable "test_lst" {
 
 variable "test_tuple" {
   type        = tuple([string, number, bool])
-  default     = [121, "222", true]
+  default     = ["121", 222, true]
 }
 
 variable "test_set" {
